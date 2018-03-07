@@ -7,15 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8C87131D204787BE00563120 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C87131C204787BE00563120 /* AppDelegate.m */; };
-		8C871320204787BE00563120 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C87131F204787BE00563120 /* ViewController.m */; };
-		8C871323204787BE00563120 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C871321204787BE00563120 /* Main.storyboard */; };
+		295A953E781164675243E007 /* libPods-kaileUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE32B5C0DFFB91FF4EB401F9 /* libPods-kaileUITests.a */; };
+		4CCAB517204F82E7004D267C /* TransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCAB514204F82E7004D267C /* TransitionAnimation.m */; };
+		4CCAB518204F82E7004D267C /* TransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCAB516204F82E7004D267C /* TransitionController.m */; };
+		5010C7E2A2CAADC57C493E42 /* libPods-kaile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7865FF464444DDF748450CDD /* libPods-kaile.a */; };
+		8C01A0742047D37F009DF1E9 /* WKRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C01A0722047D37F009DF1E9 /* WKRefreshBackGifFooter.m */; };
+		8C01A0752047D37F009DF1E9 /* WKRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C01A0732047D37F009DF1E9 /* WKRefreshGifHeader.m */; };
 		8C871326204787BE00563120 /* kaile.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C871324204787BE00563120 /* kaile.xcdatamodeld */; };
-		8C871328204787BE00563120 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C871327204787BE00563120 /* Assets.xcassets */; };
-		8C87132B204787BE00563120 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C871329204787BE00563120 /* LaunchScreen.storyboard */; };
-		8C87132E204787BE00563120 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C87132D204787BE00563120 /* main.m */; };
 		8C871338204787BF00563120 /* kaileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C871337204787BF00563120 /* kaileTests.m */; };
 		8C871343204787BF00563120 /* kaileUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C871342204787BF00563120 /* kaileUITests.m */; };
+		8C87136F2047899900563120 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8713592047899900563120 /* AppDelegate.m */; };
+		8C8713702047899900563120 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C8713632047899900563120 /* Assets.xcassets */; };
+		8C8713712047899900563120 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C8713642047899900563120 /* LaunchScreen.storyboard */; };
+		8C8713732047899900563120 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8713682047899900563120 /* main.m */; };
+		8C8713742047899900563120 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C8713692047899900563120 /* Info.plist */; };
+		8C87137A20478B8500563120 /* KLBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C87137920478B8500563120 /* KLBaseTabBarController.m */; };
+		8C87137F20478DE900563120 /* KLBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C87137E20478DE900563120 /* KLBaseTableViewController.m */; };
+		8C87138220478E1900563120 /* KLHomeViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C87138120478E1900563120 /* KLHomeViewControllers.m */; };
+		8C87138520478FAB00563120 /* KLIMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C87138420478FAB00563120 /* KLIMViewController.m */; };
+		8C87138820478FC500563120 /* KLLBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C87138720478FC500563120 /* KLLBViewController.m */; };
+		8C87138B2047924E00563120 /* KLBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C87138A2047924E00563120 /* KLBaseNavigationController.m */; };
+		8CCBA620204A6E0D00F73809 /* KLBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCBA61F204A6E0D00F73809 /* KLBaseTableView.m */; };
+		8CCBA623204A6F0E00F73809 /* KLHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCBA622204A6F0E00F73809 /* KLHomeVC.m */; };
+		8CCBA626204A6F7400F73809 /* KLHomeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCBA625204A6F7400F73809 /* KLHomeTableView.m */; };
+		8CCBA629204A70E800F73809 /* KLHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCBA628204A70E800F73809 /* KLHomeView.m */; };
+		8CCBA62F204A715E00F73809 /* KLHomeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCBA62B204A715E00F73809 /* KLHomeHeaderView.m */; };
+		8CCBA630204A715E00F73809 /* KLHomeBodyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCBA62C204A715E00F73809 /* KLHomeBodyView.m */; };
+		8CCBA634204A716400F73809 /* KLFirstTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCBA633204A716300F73809 /* KLFirstTableViewCell.m */; };
+		8CCBA637204A76C500F73809 /* KLHomeHeaderViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCBA636204A76C500F73809 /* KLHomeHeaderViewCell.m */; };
+		D0BBBD41661ADD8E38949EC1 /* libPods-kaileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF1CE22F3811F8780EDF772 /* libPods-kaileTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,23 +56,65 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1756C8106A5DAD222CC92887 /* Pods-kaile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kaile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kaile/Pods-kaile.debug.xcconfig"; sourceTree = "<group>"; };
+		2CB25DA408D834C41CC2140C /* Pods-kaileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kaileTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kaileTests/Pods-kaileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4CCAB513204F82E7004D267C /* TransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionAnimation.h; sourceTree = "<group>"; };
+		4CCAB514204F82E7004D267C /* TransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionAnimation.m; sourceTree = "<group>"; };
+		4CCAB515204F82E7004D267C /* TransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionController.h; sourceTree = "<group>"; };
+		4CCAB516204F82E7004D267C /* TransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionController.m; sourceTree = "<group>"; };
+		7865FF464444DDF748450CDD /* libPods-kaile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kaile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C01A0702047D37F009DF1E9 /* WKRefreshBackGifFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKRefreshBackGifFooter.h; sourceTree = "<group>"; };
+		8C01A0712047D37F009DF1E9 /* WKRefreshGifHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKRefreshGifHeader.h; sourceTree = "<group>"; };
+		8C01A0722047D37F009DF1E9 /* WKRefreshBackGifFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKRefreshBackGifFooter.m; sourceTree = "<group>"; };
+		8C01A0732047D37F009DF1E9 /* WKRefreshGifHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKRefreshGifHeader.m; sourceTree = "<group>"; };
 		8C871318204787BE00563120 /* kaile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kaile.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C87131B204787BE00563120 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8C87131C204787BE00563120 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8C87131E204787BE00563120 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8C87131F204787BE00563120 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8C871322204787BE00563120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C871325204787BE00563120 /* kaile.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = kaile.xcdatamodel; sourceTree = "<group>"; };
-		8C871327204787BE00563120 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8C87132A204787BE00563120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8C87132C204787BE00563120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8C87132D204787BE00563120 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8C871333204787BF00563120 /* kaileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kaileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C871337204787BF00563120 /* kaileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kaileTests.m; sourceTree = "<group>"; };
 		8C871339204787BF00563120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C87133E204787BF00563120 /* kaileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kaileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C871342204787BF00563120 /* kaileUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kaileUITests.m; sourceTree = "<group>"; };
 		8C871344204787BF00563120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C8713562047899900563120 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8C8713592047899900563120 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8C8713632047899900563120 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C8713652047899900563120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C8713682047899900563120 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C8713692047899900563120 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C87137820478B8500563120 /* KLBaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLBaseTabBarController.h; sourceTree = "<group>"; };
+		8C87137920478B8500563120 /* KLBaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLBaseTabBarController.m; sourceTree = "<group>"; };
+		8C87137D20478DE900563120 /* KLBaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLBaseTableViewController.h; sourceTree = "<group>"; };
+		8C87137E20478DE900563120 /* KLBaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLBaseTableViewController.m; sourceTree = "<group>"; };
+		8C87138020478E1900563120 /* KLHomeViewControllers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLHomeViewControllers.h; sourceTree = "<group>"; };
+		8C87138120478E1900563120 /* KLHomeViewControllers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLHomeViewControllers.m; sourceTree = "<group>"; };
+		8C87138320478FAB00563120 /* KLIMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLIMViewController.h; sourceTree = "<group>"; };
+		8C87138420478FAB00563120 /* KLIMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLIMViewController.m; sourceTree = "<group>"; };
+		8C87138620478FC500563120 /* KLLBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLLBViewController.h; sourceTree = "<group>"; };
+		8C87138720478FC500563120 /* KLLBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLLBViewController.m; sourceTree = "<group>"; };
+		8C8713892047924E00563120 /* KLBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLBaseNavigationController.h; sourceTree = "<group>"; };
+		8C87138A2047924E00563120 /* KLBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLBaseNavigationController.m; sourceTree = "<group>"; };
+		8CCBA61E204A6E0D00F73809 /* KLBaseTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLBaseTableView.h; sourceTree = "<group>"; };
+		8CCBA61F204A6E0D00F73809 /* KLBaseTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLBaseTableView.m; sourceTree = "<group>"; };
+		8CCBA621204A6F0E00F73809 /* KLHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLHomeVC.h; sourceTree = "<group>"; };
+		8CCBA622204A6F0E00F73809 /* KLHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLHomeVC.m; sourceTree = "<group>"; };
+		8CCBA624204A6F7400F73809 /* KLHomeTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLHomeTableView.h; sourceTree = "<group>"; };
+		8CCBA625204A6F7400F73809 /* KLHomeTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLHomeTableView.m; sourceTree = "<group>"; };
+		8CCBA627204A70E800F73809 /* KLHomeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLHomeView.h; sourceTree = "<group>"; };
+		8CCBA628204A70E800F73809 /* KLHomeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLHomeView.m; sourceTree = "<group>"; };
+		8CCBA62B204A715E00F73809 /* KLHomeHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLHomeHeaderView.m; sourceTree = "<group>"; };
+		8CCBA62C204A715E00F73809 /* KLHomeBodyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLHomeBodyView.m; sourceTree = "<group>"; };
+		8CCBA62D204A715E00F73809 /* KLHomeHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLHomeHeaderView.h; sourceTree = "<group>"; };
+		8CCBA62E204A715E00F73809 /* KLHomeBodyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLHomeBodyView.h; sourceTree = "<group>"; };
+		8CCBA632204A716300F73809 /* KLFirstTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLFirstTableViewCell.h; sourceTree = "<group>"; };
+		8CCBA633204A716300F73809 /* KLFirstTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLFirstTableViewCell.m; sourceTree = "<group>"; };
+		8CCBA635204A76C500F73809 /* KLHomeHeaderViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLHomeHeaderViewCell.h; sourceTree = "<group>"; };
+		8CCBA636204A76C500F73809 /* KLHomeHeaderViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLHomeHeaderViewCell.m; sourceTree = "<group>"; };
+		947AAB829A28B548FE2AB5C6 /* Pods-kaileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kaileTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-kaileTests/Pods-kaileTests.release.xcconfig"; sourceTree = "<group>"; };
+		959F015D75FF0E74B16150D7 /* Pods-kaileUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kaileUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kaileUITests/Pods-kaileUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BAF1CE22F3811F8780EDF772 /* libPods-kaileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kaileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D1FD7744D401861799FC62 /* Pods-kaile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kaile.release.xcconfig"; path = "Pods/Target Support Files/Pods-kaile/Pods-kaile.release.xcconfig"; sourceTree = "<group>"; };
+		EE32B5C0DFFB91FF4EB401F9 /* libPods-kaileUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kaileUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE52F6EB1FEBF5CA24C1D0E2 /* Pods-kaileUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kaileUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-kaileUITests/Pods-kaileUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5010C7E2A2CAADC57C493E42 /* libPods-kaile.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0BBBD41661ADD8E38949EC1 /* libPods-kaileTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +138,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				295A953E781164675243E007 /* libPods-kaileUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17A016130D4019F90BD440BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1756C8106A5DAD222CC92887 /* Pods-kaile.debug.xcconfig */,
+				D3D1FD7744D401861799FC62 /* Pods-kaile.release.xcconfig */,
+				2CB25DA408D834C41CC2140C /* Pods-kaileTests.debug.xcconfig */,
+				947AAB829A28B548FE2AB5C6 /* Pods-kaileTests.release.xcconfig */,
+				959F015D75FF0E74B16150D7 /* Pods-kaileUITests.debug.xcconfig */,
+				EE52F6EB1FEBF5CA24C1D0E2 /* Pods-kaileUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4CCAB512204F82E7004D267C /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				4CCAB513204F82E7004D267C /* TransitionAnimation.h */,
+				4CCAB514204F82E7004D267C /* TransitionAnimation.m */,
+				4CCAB515204F82E7004D267C /* TransitionController.h */,
+				4CCAB516204F82E7004D267C /* TransitionController.m */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		754913E4D8B8158306F438DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7865FF464444DDF748450CDD /* libPods-kaile.a */,
+				BAF1CE22F3811F8780EDF772 /* libPods-kaileTests.a */,
+				EE32B5C0DFFB91FF4EB401F9 /* libPods-kaileUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C01A06F2047D37F009DF1E9 /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				8C01A0702047D37F009DF1E9 /* WKRefreshBackGifFooter.h */,
+				8C01A0722047D37F009DF1E9 /* WKRefreshBackGifFooter.m */,
+				8C01A0712047D37F009DF1E9 /* WKRefreshGifHeader.h */,
+				8C01A0732047D37F009DF1E9 /* WKRefreshGifHeader.m */,
+			);
+			path = Refresh;
+			sourceTree = "<group>";
+		};
 		8C87130F204787BE00563120 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +197,8 @@
 				8C871336204787BF00563120 /* kaileTests */,
 				8C871341204787BF00563120 /* kaileUITests */,
 				8C871319204787BE00563120 /* Products */,
+				17A016130D4019F90BD440BF /* Pods */,
+				754913E4D8B8158306F438DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,15 +215,12 @@
 		8C87131A204787BE00563120 /* kaile */ = {
 			isa = PBXGroup;
 			children = (
-				8C87131B204787BE00563120 /* AppDelegate.h */,
-				8C87131C204787BE00563120 /* AppDelegate.m */,
-				8C87131E204787BE00563120 /* ViewController.h */,
-				8C87131F204787BE00563120 /* ViewController.m */,
-				8C871321204787BE00563120 /* Main.storyboard */,
-				8C871327204787BE00563120 /* Assets.xcassets */,
-				8C871329204787BE00563120 /* LaunchScreen.storyboard */,
-				8C87132C204787BE00563120 /* Info.plist */,
-				8C87132D204787BE00563120 /* main.m */,
+				8C8713552047899900563120 /* Bases */,
+				8C8713502047899900563120 /* Home */,
+				8C87136A2047899900563120 /* IM */,
+				8C87135C2047899900563120 /* LB */,
+				8C8713622047899900563120 /* Supporting Files */,
+				8C8713612047899900563120 /* Tools */,
 				8C871324204787BE00563120 /* kaile.xcdatamodeld */,
 			);
 			path = kaile;
@@ -135,6 +244,228 @@
 			path = kaileUITests;
 			sourceTree = "<group>";
 		};
+		8C8713502047899900563120 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8C8713512047899900563120 /* Others */,
+				8C8713522047899900563120 /* Models */,
+				8C8713532047899900563120 /* Controllers */,
+				8C8713542047899900563120 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8C8713512047899900563120 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		8C8713522047899900563120 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8C8713532047899900563120 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8C87138020478E1900563120 /* KLHomeViewControllers.h */,
+				8C87138120478E1900563120 /* KLHomeViewControllers.m */,
+				8CCBA621204A6F0E00F73809 /* KLHomeVC.h */,
+				8CCBA622204A6F0E00F73809 /* KLHomeVC.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8C8713542047899900563120 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8CCBA627204A70E800F73809 /* KLHomeView.h */,
+				8CCBA628204A70E800F73809 /* KLHomeView.m */,
+				8CCBA631204A716300F73809 /* HomeTableCell */,
+				8CCBA62A204A715E00F73809 /* HomeView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8C8713552047899900563120 /* Bases */ = {
+			isa = PBXGroup;
+			children = (
+				4CCAB512204F82E7004D267C /* Animation */,
+				8C8713572047899900563120 /* Others */,
+				8C8713582047899900563120 /* Models */,
+				8C87135A2047899900563120 /* Controllers */,
+				8C87135B2047899900563120 /* Views */,
+			);
+			path = Bases;
+			sourceTree = "<group>";
+		};
+		8C8713572047899900563120 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				8C8713562047899900563120 /* AppDelegate.h */,
+				8C8713592047899900563120 /* AppDelegate.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		8C8713582047899900563120 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8C87135A2047899900563120 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8C87137820478B8500563120 /* KLBaseTabBarController.h */,
+				8C87137920478B8500563120 /* KLBaseTabBarController.m */,
+				8C87137D20478DE900563120 /* KLBaseTableViewController.h */,
+				8C87137E20478DE900563120 /* KLBaseTableViewController.m */,
+				8C8713892047924E00563120 /* KLBaseNavigationController.h */,
+				8C87138A2047924E00563120 /* KLBaseNavigationController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8C87135B2047899900563120 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8CCBA61E204A6E0D00F73809 /* KLBaseTableView.h */,
+				8CCBA61F204A6E0D00F73809 /* KLBaseTableView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8C87135C2047899900563120 /* LB */ = {
+			isa = PBXGroup;
+			children = (
+				8C87135D2047899900563120 /* Others */,
+				8C87135E2047899900563120 /* Models */,
+				8C87135F2047899900563120 /* Controllers */,
+				8C8713602047899900563120 /* Views */,
+			);
+			path = LB;
+			sourceTree = "<group>";
+		};
+		8C87135D2047899900563120 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		8C87135E2047899900563120 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8C87135F2047899900563120 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8C87138620478FC500563120 /* KLLBViewController.h */,
+				8C87138720478FC500563120 /* KLLBViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8C8713602047899900563120 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8C8713612047899900563120 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				8C01A06F2047D37F009DF1E9 /* Refresh */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		8C8713622047899900563120 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C8713632047899900563120 /* Assets.xcassets */,
+				8C8713642047899900563120 /* LaunchScreen.storyboard */,
+				8C8713682047899900563120 /* main.m */,
+				8C8713692047899900563120 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C87136A2047899900563120 /* IM */ = {
+			isa = PBXGroup;
+			children = (
+				8C87136B2047899900563120 /* Others */,
+				8C87136C2047899900563120 /* Models */,
+				8C87136D2047899900563120 /* Controllers */,
+				8C87136E2047899900563120 /* Views */,
+			);
+			path = IM;
+			sourceTree = "<group>";
+		};
+		8C87136B2047899900563120 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		8C87136C2047899900563120 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8C87136D2047899900563120 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8C87138320478FAB00563120 /* KLIMViewController.h */,
+				8C87138420478FAB00563120 /* KLIMViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8C87136E2047899900563120 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8CCBA62A204A715E00F73809 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				8CCBA624204A6F7400F73809 /* KLHomeTableView.h */,
+				8CCBA625204A6F7400F73809 /* KLHomeTableView.m */,
+				8CCBA62D204A715E00F73809 /* KLHomeHeaderView.h */,
+				8CCBA62B204A715E00F73809 /* KLHomeHeaderView.m */,
+				8CCBA62E204A715E00F73809 /* KLHomeBodyView.h */,
+				8CCBA62C204A715E00F73809 /* KLHomeBodyView.m */,
+				8CCBA635204A76C500F73809 /* KLHomeHeaderViewCell.h */,
+				8CCBA636204A76C500F73809 /* KLHomeHeaderViewCell.m */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		8CCBA631204A716300F73809 /* HomeTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				8CCBA632204A716300F73809 /* KLFirstTableViewCell.h */,
+				8CCBA633204A716300F73809 /* KLFirstTableViewCell.m */,
+			);
+			path = HomeTableCell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,9 +473,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C871347204787BF00563120 /* Build configuration list for PBXNativeTarget "kaile" */;
 			buildPhases = (
+				7420F56E804E69B92A8EBD09 /* [CP] Check Pods Manifest.lock */,
 				8C871314204787BE00563120 /* Sources */,
 				8C871315204787BE00563120 /* Frameworks */,
 				8C871316204787BE00563120 /* Resources */,
+				D0F29A810AF2CD9631ADFCF0 /* [CP] Embed Pods Frameworks */,
+				397C807A3D0C4333ABB5B89F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,9 +493,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C87134A204787BF00563120 /* Build configuration list for PBXNativeTarget "kaileTests" */;
 			buildPhases = (
+				908D002B8B4A35D1845BB979 /* [CP] Check Pods Manifest.lock */,
 				8C87132F204787BF00563120 /* Sources */,
 				8C871330204787BF00563120 /* Frameworks */,
 				8C871331204787BF00563120 /* Resources */,
+				A8D8F64F6509E41E7EA959A5 /* [CP] Embed Pods Frameworks */,
+				012BE4E1E1D09987CE5A19FA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,9 +514,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C87134D204787BF00563120 /* Build configuration list for PBXNativeTarget "kaileUITests" */;
 			buildPhases = (
+				B5823F46087D4FD8DF3D3B7A /* [CP] Check Pods Manifest.lock */,
 				8C87133A204787BF00563120 /* Sources */,
 				8C87133B204787BF00563120 /* Frameworks */,
 				8C87133C204787BF00563120 /* Resources */,
+				4F6D7656A8987B8BD19ECD23 /* [CP] Embed Pods Frameworks */,
+				4C800F65F5ACEF9A71D03568 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -241,9 +581,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C87132B204787BE00563120 /* LaunchScreen.storyboard in Resources */,
-				8C871328204787BE00563120 /* Assets.xcassets in Resources */,
-				8C871323204787BE00563120 /* Main.storyboard in Resources */,
+				8C8713742047899900563120 /* Info.plist in Resources */,
+				8C8713702047899900563120 /* Assets.xcassets in Resources */,
+				8C8713712047899900563120 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,15 +603,182 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		012BE4E1E1D09987CE5A19FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kaileTests/Pods-kaileTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		397C807A3D0C4333ABB5B89F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-kaile/Pods-kaile-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kaile/Pods-kaile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C800F65F5ACEF9A71D03568 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kaileUITests/Pods-kaileUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F6D7656A8987B8BD19ECD23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kaileUITests/Pods-kaileUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7420F56E804E69B92A8EBD09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kaile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		908D002B8B4A35D1845BB979 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kaileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8D8F64F6509E41E7EA959A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kaileTests/Pods-kaileTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5823F46087D4FD8DF3D3B7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kaileUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0F29A810AF2CD9631ADFCF0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kaile/Pods-kaile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8C871314204787BE00563120 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C871320204787BE00563120 /* ViewController.m in Sources */,
+				8C87136F2047899900563120 /* AppDelegate.m in Sources */,
+				8CCBA62F204A715E00F73809 /* KLHomeHeaderView.m in Sources */,
+				8CCBA630204A715E00F73809 /* KLHomeBodyView.m in Sources */,
+				8CCBA634204A716400F73809 /* KLFirstTableViewCell.m in Sources */,
+				8CCBA637204A76C500F73809 /* KLHomeHeaderViewCell.m in Sources */,
+				8C01A0742047D37F009DF1E9 /* WKRefreshBackGifFooter.m in Sources */,
+				8C87137A20478B8500563120 /* KLBaseTabBarController.m in Sources */,
+				8CCBA629204A70E800F73809 /* KLHomeView.m in Sources */,
+				8C8713732047899900563120 /* main.m in Sources */,
+				8C87138B2047924E00563120 /* KLBaseNavigationController.m in Sources */,
+				8C87138820478FC500563120 /* KLLBViewController.m in Sources */,
+				8C01A0752047D37F009DF1E9 /* WKRefreshGifHeader.m in Sources */,
+				8C87137F20478DE900563120 /* KLBaseTableViewController.m in Sources */,
+				8CCBA626204A6F7400F73809 /* KLHomeTableView.m in Sources */,
+				8C87138520478FAB00563120 /* KLIMViewController.m in Sources */,
+				4CCAB517204F82E7004D267C /* TransitionAnimation.m in Sources */,
+				8C87138220478E1900563120 /* KLHomeViewControllers.m in Sources */,
+				8CCBA620204A6E0D00F73809 /* KLBaseTableView.m in Sources */,
+				8CCBA623204A6F0E00F73809 /* KLHomeVC.m in Sources */,
+				4CCAB518204F82E7004D267C /* TransitionController.m in Sources */,
 				8C871326204787BE00563120 /* kaile.xcdatamodeld in Sources */,
-				8C87132E204787BE00563120 /* main.m in Sources */,
-				8C87131D204787BE00563120 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,18 +814,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8C871321204787BE00563120 /* Main.storyboard */ = {
+		8C8713642047899900563120 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8C871322204787BE00563120 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8C871329204787BE00563120 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8C87132A204787BE00563120 /* Base */,
+				8C8713652047899900563120 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -432,10 +931,12 @@
 		};
 		8C871348204787BF00563120 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1756C8106A5DAD222CC92887 /* Pods-kaile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = kaile/Info.plist;
+				DEVELOPMENT_TEAM = 5J83RC9E7A;
+				INFOPLIST_FILE = "$(SRCROOT)/kaile/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.kaile.com.kaile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -445,10 +946,12 @@
 		};
 		8C871349204787BF00563120 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3D1FD7744D401861799FC62 /* Pods-kaile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = kaile/Info.plist;
+				DEVELOPMENT_TEAM = 5J83RC9E7A;
+				INFOPLIST_FILE = "$(SRCROOT)/kaile/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.kaile.com.kaile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -458,6 +961,7 @@
 		};
 		8C87134B204787BF00563120 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CB25DA408D834C41CC2140C /* Pods-kaileTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +976,7 @@
 		};
 		8C87134C204787BF00563120 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 947AAB829A28B548FE2AB5C6 /* Pods-kaileTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +991,7 @@
 		};
 		8C87134E204787BF00563120 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 959F015D75FF0E74B16150D7 /* Pods-kaileUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = kaileUITests/Info.plist;
@@ -499,6 +1005,7 @@
 		};
 		8C87134F204787BF00563120 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE52F6EB1FEBF5CA24C1D0E2 /* Pods-kaileUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = kaileUITests/Info.plist;

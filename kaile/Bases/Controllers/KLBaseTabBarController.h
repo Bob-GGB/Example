@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  KLBaseTabBarController.h
 //  kaile
 //
 //  Created by Monkey on 2018/3/1.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface KLBaseTabBarController : UITabBarController
 
 @end
-
